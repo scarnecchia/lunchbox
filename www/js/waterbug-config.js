@@ -1,23 +1,23 @@
 // widths and padding
-var canvasWidth = 1000; // this will be the exported width of the image
+var canvasWidth = 1980; // this will be the exported width of the image
 var elementPadding = 40; // padding around the logo and credit text
 
 // logo configuration
 // the name of the logo object should match the value of the corresponding radio button in the HTML.
 var logos = {
-    'lunchbox': {
-        whitePath: '../img/icon-lunchbox-white.svg', // path to white logo
-        blackPath: '../img/icon-lunchbox-black.svg', // path to black logo
-        w: 100, // width of logo
-        h: 80, // height of logo
-        display: 'Lunchbox'
+    'signal': {
+        whitePath: '../img/signalbanner-quotable-white.svg', // path to white logo
+        blackPath: '../img/signalbanner-quotable-black.svg', // path to black logo
+        w: 120, // width of logo
+        h: 50, // height of logo
+        display: 'Signal Program'
     },
     'socializr': {
-        whitePath: '../img/icon-socializr-white.svg',
-        blackPath: '../img/icon-socializr-black.svg',
-        w: 150,
-        h: 51,
-        display: 'Socializr'
+        whitePath: '../img/HHI-white.svg',
+        blackPath: '../img/HHI-black.svg',
+        w: 120,
+        h: 36,
+        display: 'Harvard Humanitarian Initative'
     }
 };
 
@@ -35,7 +35,7 @@ var fontShadowOffsetY = 0; // font shadow offset y
 var fontShadowBlur = 10; // font shadow blur
 
 // copyright options
-var orgName = 'Your News Organization';
+var orgName = 'Signal Program on Human Security and Technology';
 var freelanceString = 'for ' + orgName;
 
 var copyrightOptions = {
